@@ -1,6 +1,6 @@
 # .editorconfig
 
-It is a generic `.editorconfig` file for web development.
+It is a generic [`.editorconfig`](http://editorconfig.org/) file for web development.
 
 ## Copyright
 
