@@ -1,6 +1,6 @@
-# .editorconfig
+# p(ixi)v .editorconfig
 
-It is a generic [`.editorconfig`](http://editorconfig.org/) file for web development.
+This is a generic [EditorConfig](http://editorconfig.org/) file for web development.
 
 ## Copyright
 
