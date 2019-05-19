@@ -38,11 +38,12 @@ indent_style = space
 indent_size = 4
 
 # NPM - https://docs.npmjs.com/files/package.json
+# TypeScript - https://www.typescriptlang.org/
 # Stylint - https://rosspatton.github.io/stylint/
 # prettier - https://prettier.io/
 # ESlint - https://eslint.org/
 # VSCode Settings - https://code.visualstudio.com/docs/getstarted/settings
-[{package.json,.stylintrc,.prettierrc,.eslintrc,.vscode/settings.json}]
+[{package.json,tsconfig.json,stylintrc,.prettierrc,.eslintrc,.vscode/settings.json}]
 indent_style = space
 indent_size = 2
 
