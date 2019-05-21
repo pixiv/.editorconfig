@@ -32,10 +32,9 @@ indent_style = space
 indent_size = 2
 
 # JSON - http://json.org/
-# Composer - https://getcomposer.org/doc/04-schema.md
-[{*.json,composer.lock}]
+[*.json]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 # NPM - https://docs.npmjs.com/files/package.json
 # TypeScript - https://www.typescriptlang.org/
@@ -49,6 +48,11 @@ indent_size = 2
 
 # PHP - http://php.net/
 [*.php]
+indent_style = space
+indent_size = 4
+
+# Composer - https://getcomposer.org/doc/04-schema.md
+[{composer.json,composer.lock}]
 indent_style = space
 indent_size = 4
 
