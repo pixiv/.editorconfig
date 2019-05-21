@@ -12,8 +12,8 @@ charset = utf-8
 # CSS - https://developer.mozilla.org/ja/docs/Web/CSS
 # Sass(SCSS) - http://sass-lang.com/
 # Stylus - https://learnboost.github.io/stylus/
-# SugarSS - https://github.com/postcss/sugarss#readme
-[*.{css,scss,styl,sss}]
+# PostCSS - https://postcss.org/
+[*.{css,scss,sass,styl,pcss}]
 indent_style = space
 indent_size = 2
 trim_trailing_whitespace = true
@@ -25,8 +25,9 @@ indent_size = 2
 
 # JavaScript - https://developer.mozilla.org/ja/docs/Web/JavaScript
 # TypeScript - https://www.typescriptlang.org/
-# CoffeeScript - http://coffeescript.org/
-[*.{js,ts,coffee}]
+# React - https://reactjs.org/
+# Vue - https://vuejs.org/
+[*.{js,ts,jsx,tsx,vue}]
 indent_style = space
 indent_size = 2
 
@@ -37,8 +38,12 @@ indent_style = space
 indent_size = 4
 
 # NPM - https://docs.npmjs.com/files/package.json
+# TypeScript - https://www.typescriptlang.org/
 # Stylint - https://rosspatton.github.io/stylint/
-[{package.json,.stylintrc}]
+# prettier - https://prettier.io/
+# ESlint - https://eslint.org/
+# VSCode Settings - https://code.visualstudio.com/docs/getstarted/settings
+[{package.json,tsconfig.json,.stylintrc,.prettierrc,.eslintrc,.vscode/settings.json}]
 indent_style = space
 indent_size = 2
 
